@@ -1,0 +1,27 @@
+{
+  "name": "twice-call-wrapper",
+  "version": "1.0.0",
+  "description": "A small wrapper that calls a function twice: fn(fn(args))",
+  "keywords": [
+    "function",
+    "wrapper",
+    "twice",
+    "compose",
+    "functional"
+  ],
+  "homepage": "https://github.com/tj-commits/twice-call-wrapper#readme",
+  "bugs": {
+    "url": "https://github.com/tj-commits/twice-call-wrapper/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tj-commits/twice-call-wrapper.git"
+  },
+  "license": "MIT",
+  "author": "Fox",
+  "type": "commonjs",
+  "main": "index.js",
+  "dependencies": {
+    "compose-function": "^3.0.3"
+  }
+}
