@@ -1,5 +1,6 @@
-var composeFunction = require('compose-function')
+var composeFunction = require("compose-function")
+var flatmap = require("array.prototype.flatmap")
 
 module.exports = function twiceCallWrapper(fn) {
-  return composeFunction(...([fn]).flatMap(item => [item, item]))
+  return composeFunction(...flatmap([fn], (item) => [item, item]))
 }
