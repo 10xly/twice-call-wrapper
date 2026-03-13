@@ -1,6 +1,6 @@
 {
   "name": "twice-call-wrapper",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "A small wrapper that calls a function twice: fn(fn(args))",
   "keywords": [
     "function",
