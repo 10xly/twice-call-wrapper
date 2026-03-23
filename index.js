@@ -7,7 +7,7 @@ var arrayWrap = require("as-array")
 var times = require("lodash.times")
 var numberTwo = require("es-two")
 var constant = require("literally")
-var call = require("call-bind-enterprise/lib/callBoundCall")
+var call = require("call-bind-enterprise/src/callBoundCall")
 
 // eslint-disable-next-line unicorn/prevent-abbreviations
 module.exports = function twiceCallWrapper(fn) {
